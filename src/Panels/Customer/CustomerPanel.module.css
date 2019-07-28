@@ -1,0 +1,69 @@
+
+
+.hi {
+    color:'white';
+    background-color: green;
+    
+}
+
+
+.maindiv{
+    width: 100%;
+    height: 140%;
+    background-image: url('../Assest/Images/bc.jpg');
+   
+
+}
+
+.navbar{
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    justify-items: center;
+    flex-direction: column;
+    
+
+}
+
+.formNav{
+                    
+                    background-color:rgb(37,36,36);
+
+                     margin-left:3%;
+                     margin-right:3%;
+                     border-radius: 10px;
+                     padding-top: 1%;
+                                                         /* width increase and mid ma word*/      
+                     -webkit-border-radius: 10px;
+                     -moz-border-radius: 10px;
+                     -ms-border-radius: 10px;
+                     -o-border-radius: 10px;
+}
+.cards {
+    min-width: 275;
+    width:120%;
+     /* drone nto starting from right place*/
+  }
+.bullet {
+    display: 'inline-block';
+    margin: '0 2px';
+    transform: 'scale(0.8)';
+}
+.title {
+    font-size: 14;
+    font-weight: bolder;
+  }
+  .pos {
+    margin-bottom: 12;
+    padding-left: 7%;
+  }
+
+  .card {
+    max-width: 50;
+  }
+  
+ 
+
+
+
+

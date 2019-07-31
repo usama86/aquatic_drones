@@ -32,6 +32,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 
 import {Form} from 'react-bootstrap';
 
+import TextField from '@material-ui/core/TextField';
 
 import './h.css';
 
@@ -239,7 +240,7 @@ class Login extends React.Component {
                                     keepMounted
                                     open={Boolean(this.state.anchorEl)}
                                     onClose={this.handleClose}
-                                    style={{cursor: "pointer"}}
+                                    style={{cursor: "pointer",paddingBottom:"10%",marginLeft:"82%",marginBottom:"200px"}}
                                   >
                                     <MenuItem className="btn btn-primary btn-lg" data-toggle="modal" data-target="#AddCustomer"> My Profile</MenuItem>
                                     <MenuItem >Logout</MenuItem>

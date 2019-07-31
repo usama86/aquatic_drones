@@ -160,18 +160,20 @@ class AdminPanel extends React.Component {
                                   >
                                   Dawood
                                   </span>
-                                  <Menu
-                                    
-                                    id="simple-menu"
-                                    anchorEl={this.state.anchorEl}
-                                    keepMounted
-                                    open={Boolean(this.state.anchorEl)}
-                                    onClose={this.handleClose}
-                                    style={{cursor: "pointer"}}
-                                  >
-                                    <MenuItem className="btn btn-primary btn-lg" data-toggle="modal" data-target="#AddCustomer"> My Profile</MenuItem>
-                                    <MenuItem >Logout</MenuItem>
-                                  </Menu>
+                                  
+                                          <Menu
+                                            
+                                            id="simple-menu"
+                                            anchorEl={this.state.anchorEl}
+                                            keepMounted
+                                            open={Boolean(this.state.anchorEl)}
+                                            onClose={this.handleClose}
+                                            style={{cursor: "pointer",overflow: "visible",paddingBottom:"10%",marginLeft:"82%"}}
+                                          >
+                                            <MenuItem className="btn btn-primary btn-lg" data-toggle="modal" data-target="#AddCustomer"> My Profile</MenuItem>
+                                            <MenuItem >Logout</MenuItem>
+                                          </Menu>
+                                  
                                   
 
 
